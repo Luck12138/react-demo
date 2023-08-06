@@ -15,7 +15,7 @@ class App extends PureComponent {
           <BrowserRouter>
             <Routes>
               <Route path="/" exact element={<Home/>}></Route>
-              <Route path="/detail" exact element={<Detail/>}></Route>
+              <Route path="/detail/:id" exact element={<Detail/>}></Route>
             </Routes>
           </BrowserRouter>
         </div>
